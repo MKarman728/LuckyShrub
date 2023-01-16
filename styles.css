@@ -1,0 +1,116 @@
+*{
+    font-family: 'Gothic A1', serif;
+}
+
+header img{
+    max-width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: logoanimation 3s;
+}
+
+@keyframes logoanimation{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color:darkgray;
+    border-radius: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+nav li{
+    display: inline-block;
+    background-color: darkgray;
+}
+
+a:link{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin: 2rem;
+    padding: 5%;
+    border-radius: 20%;
+}
+a:hover{
+    color: gray;
+}
+
+section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#PromotionBanner{
+    background-image: url(Banner.jpg);
+    border-radius: 10px;
+    background-position: center bottom;
+    color: white;
+    background-repeat: no-repeat;
+}
+#PromotionBanner h1{
+    font-size: 30px;
+}
+
+#PromotionBanner:hover{
+    color: gray;
+}
+
+#storefront{
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+section article:hover{
+    color: gray;
+}
+
+#landscape{
+    width: 300px;
+    height: 206px;
+    border-radius: 30px;
+}
+
+#customplanter{
+    width: 300px;
+    height: 206px;
+    border-radius: 30px;
+}
+article{
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    flex: 1;
+}
+
+footer > div{
+    width: 50%;
+}
+
+footer img{
+    max-width: 10%;
+}
+
+#copyright{
+    text-align: right;
+    border-top: 1px solid;
+}
